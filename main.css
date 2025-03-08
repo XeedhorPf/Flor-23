@@ -9,16 +9,21 @@
 :root {
   --dark-color: #000;
 }
-.flower-text {
-    position: absolute;
-    top: -30px; /* Ajusta según necesites */
+.page-title {
+    position: fixed; /* Hace que el texto siempre esté visible arriba */
+    top: 0; /* Lo posiciona en la parte superior */
     left: 50%;
-    transform: translateX(-50%);
-    font-size: 16px;
+    transform: translateX(-50%); /* Centra el texto horizontalmente */
+    background: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 20px;
     font-weight: bold;
-    color: white; /* O el color que prefieras */
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 10px; /* Bordes redondeados */
+    text-align: center;
+    width: auto;
 }
+
 
 
 body {
