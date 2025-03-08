@@ -12,13 +12,20 @@ body{
     justify-content: center;
     background-color: black;
 }
-.greetings{
-    font-size: 6rem;
-    font-weight: 900;
+.greetings span {
+    display: inline-block; /* Hace que cada letra esté en línea */
+    margin-right: 3px; /* Espacio entre letras */
 }
-.greetings > span{
-    animation: glow 2.5s ease-in-out infinite;
+
+.greetings {
+    word-spacing: 10px; /* Espacio entre palabras */
+    font-size: 24px; /* Ajusta el tamaño si es necesario */
+    font-weight: bold;
+       animation: glow 2.5s ease-in-out infinite;
 }
+
+ 
+
 @keyframes glow{
     0%, 100%{
         color: #fff;
