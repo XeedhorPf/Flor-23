@@ -9,20 +9,6 @@
 :root {
   --dark-color: #000;
 }
-.page-title {
-    position: fixed; /* Hace que el texto siempre esté visible arriba */
-    top: 0; /* Lo posiciona en la parte superior */
-    left: 50%;
-    transform: translateX(-50%); /* Centra el texto horizontalmente */
-    background: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente */
-    color: white; /* Color del texto */
-    padding: 10px 20px; /* Espaciado interno */
-    font-size: 20px;
-    font-weight: bold;
-    border-radius: 10px; /* Bordes redondeados */
-    text-align: center;
-    width: auto;
-}
 
 
 
